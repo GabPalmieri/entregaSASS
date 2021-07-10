@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+nav ul li a {
+  text-decoration: none;
+  color: white; }
+
+header {
+  width: 90%;
+  margin: 0 auto 35px auto; }
+
+.header__iconos {
+  text-align: right;
+  display: block;
+  margin-right: 0; }
+
+.header__iconos ul {
+  list-style: none; }
+
+.header__iconos ul li {
+  display: inline-block;
+  padding: 15px 0 0 5px; }
+
+.header__logo {
+  position: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 50px auto 50px auto; }
+
+.header__logo img {
+  position: relative;
+  display: block;
+  margin: 10px auto 10px auto; }
+
+nav ul li {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+/** comienza EXTEND**/
+
+/**comienza titulos index**/
+.h1__HamburguesasSandwich, .h2__menu, .h2__nuestrosProductos {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 8% 0 5% 0;
+  padding: 6px 0 6px 0;
+  border-bottom: #ffaa24 5px solid;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: 3px; }
+
+/**finaliza titulos index**/
+
+/**comienza titulos menu**/
+.h2__menu {
+  border-bottom: #4FB9AF 5px solid; }
+
+/**finaliza titulos menu**/
+
+/**comienza titulos Nuestros Productos**/
+.h2__nuestrosProductos {
+  border-bottom: #4FB9AF 5px solid; }
+
+/**finaliza titulos Nuestros Productos**/
+/** finaliza EXTEND**/
+
+/**comienza main index**/
+.imagenBurger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s; }
+
+.descripcionBurger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 400px; }
+
+.descripcionBurger__nombre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.descripcionBurger__detalle {
+  margin-top: 25px; }
+  .descripcionBurger__detalle p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 200;
+    text-align: center; }
+
+/**finaliza main index**/
+
+/**comienza footer**/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 60px auto 35px auto; }
+
+.barrios-delivery {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+  .barrios-delivery .mapouter {
+    position: relative;
+    text-align: right;
+    height: 150px;
+    width: 150px; }
+    .barrios-delivery .mapouter .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      height: 150px;
+      width: 150px; }
+
+.footer__datos--div {
+  display: inline-block; }
+  .footer__datos--div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    list-style: none; }
+    .footer__datos--div ul li {
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-weight: 200;
+      font-size: 15px;
+      margin-left: 2%; }
+      .footer__datos--div ul li img {
+        width: 2%;
+        margin-right: 2%; }
+
+.footer__links--iconos {
+  display: inline-block; }
+  .footer__links--iconos ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px; }
+    .footer__links--iconos ul li {
+      display: inline-block;
+      padding: 0 10px 0 10px; }
+
+/**finaliza footer**/
+
+/** comienza bootstrap nav**/
+.nav-width {
+  width: 100%; }
+
+.activeBorder {
+  border-bottom: #ffaa24 3px solid !important; }
+
+/** finaliza bootstrap nav**/
+
+@media only screen and (max-width: 768px) {
+  .descripcionBurger {
+    height: 300px; }
+  .panceta-flotante {
+    width: 20%;
+    position: fixed;
+    top: 50px;
+    left: 15px; }
+  .h1__HamburguesasSandwich, .h2__menu, .h2__nuestrosProductos {
+    font-size: 1.25rem;
+    height: 35px; }
+  .pimentero-flotante {
+    width: 15%;
+    position: fixed;
+    top: 50px;
+    right: 15px; }
+  .h2__menu {
+    font-size: 2rem; }
+  .grid-container {
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr; }
+  .h3__nuestrosProductos {
+    text-align: center;
+    margin: 0 auto 15px auto; }
+  .boton {
+    width: 50%; }
+  .nuestrosProductos__individual__imagen {
+    display: flex;
+    justify-content: center;
+    margin: 35px auto 15px auto; }
+  .nuestrosProductos__individual__texto {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto 15px auto;
+    width: 95%;
+    text-align: center; } }
+
+@media only screen and (max-width: 991px) {
+  main {
+    padding-bottom: 30px; }
+  .panceta-flotante {
+    width: 15%;
+    position: fixed;
+    top: 45px;
+    left: 15px; }
+  .activeBorder {
+    border-bottom: black 3px solid !important; }
+  .boton {
+    width: 35%; } }
+
+/**comienza figuras flotantes**/
+.panceta-flotante {
+  position: fixed;
+  top: 400px;
+  left: 50px; }
+
+/**finaliza figuras flotantes**/
+
+/* comienza BARRA*/
+.barra {
+  width: 100%;
+  height: 7px;
+  background-color: #ffaa24; }
+
+/*finaliza BARRA*/
+
+/**comienza Mixins**/
+.boton1 {
+  width: 100px;
+  height: 25px;
+  color: black;
+  background-color: #ffaa24; }
+
+.boton2 {
+  width: 100px;
+  height: 25px;
+  color: black;
+  background-color: gray; }
+
+/**finaliza Mixins**/

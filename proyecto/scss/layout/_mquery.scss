@@ -1,0 +1,82 @@
+
+
+
+@media only screen and (max-width: 768px)  {
+    .descripcionBurger{
+        height: 300px;
+    }
+
+    .panceta-flotante{
+        width: 20%;
+        position: fixed;
+        top: 50px;
+        left: 15px;
+    }
+    
+    .h1__HamburguesasSandwich {
+        font-size: 1.25rem;
+        height: 35px;
+    }
+
+    .pimentero-flotante{
+        width: 15%;
+        position: fixed;
+        top: 50px;
+        right: 15px;
+    }
+
+    .h2__menu{
+        font-size: 2rem;
+    }
+
+    .grid-container {
+
+        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .h3__nuestrosProductos{
+        text-align: center;
+        margin: 0 auto 15px auto;
+    }
+    .boton{
+        width: 50%;
+    }
+
+    .nuestrosProductos__individual__imagen{
+        display: flex;
+        justify-content: center;
+        margin: 35px auto 15px auto;
+    }
+
+    .nuestrosProductos__individual__texto{
+        display: flex;
+        justify-content: center;
+        margin:15px auto 15px auto;
+        width: 95%;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 991px){
+
+    main{
+        padding-bottom: 30px;
+    }
+
+    .panceta-flotante{
+        width: 15%;
+        position: fixed;
+        top: 45px;
+        left: 15px;
+    }
+
+    .activeBorder{
+        border-bottom: black 3px solid !important;
+    }
+
+    .boton{
+        width: 35%;
+    }
+ 
+}

@@ -1,0 +1,39 @@
+/**comienza main index**/
+
+.imagenBurger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.descripcionBurger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 400px;
+}
+
+.descripcionBurger__nombre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.descripcionBurger__detalle{
+    margin-top: 25px;
+    p{
+        font-family: $font_principal;
+        color: $color_font;
+        letter-spacing: 2px;
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 200;
+        text-align: center;
+    }
+}
+
+
+/**finaliza main index**/

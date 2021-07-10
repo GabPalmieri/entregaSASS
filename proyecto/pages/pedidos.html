@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>MENOS ES MAS - BURGER</title>
+</head>
+
+<body>
+    <header>
+        <div class="header__iconos">
+            <ul>
+                <li> <a href="https://www.instagram.com/menosesmasburgers/?hl=en"><img src="../img/instagram.png"
+                            alt="instagram"></a> </li>
+                <li> <a href="#"><img src="../img/whatsapp.png" alt="whatsapp"></a></li>
+            </ul>
+        </div>
+        <div class="header__logo"><a href="../index.html"> <img src="../img/logo.png" alt="LogoMenosesMas"></a></div>
+
+        <!--inicio nav bs-->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-width justify-content-between">
+                        <a class="nav-link" href="../index.html">HAMBURGUESAS</a>
+                        <a class="nav-link" href="../pages/sandwiches.html">SANDWICHES</a>
+                        <a class="nav-link" href="../pages/menu.html">MENÚ</a>
+                        <a class="nav-link" href="../pages/nuestrosProductos.html">PRODUCTOS</a>
+                        <a class="nav-link  active activeBorder" aria-current="page" href="../pages/pedidos.html">PEDIDOS</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--fin nav bs-->
+
+    </header>
+
+    <h2 class="h2__menu">HACENOS TU PEDIDO</h2>
+
+    <main class="container">
+
+
+        <h3 class="h3__pedido">Todas las hamburguesas y sandwiches salen acompañados de Papas Fritas</h3>
+        <form action="" method="">
+
+            <fieldset>
+                <fieldset class="fieldset__fieldset">
+                    <!--DATOS DEL CLIENTE-->
+                    <legend>TUS DATOS</legend>
+
+                    <label for="nombreyapellido">NOMBRE</label>
+                    <input type="text" placeholder=""><br>
+
+                    <label for="direccion">DIRECCIÓN</label>
+                    <input type="text" placeholder="">
+                    <label for="direccion">Piso/Timbre</label>
+                    <input type="text" placeholder=""><br>
+
+                    <!--RADIO  BUTTON-->
+                    <div class="container containerFieldset">
+                        <div class="row">
+                            <div class="col">
+                                casa <input type="radio" name="casadepto">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                departamento<input type="radio" name="casadepto">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <!--DATOS DEL PEDIDO BURGER-->
+                    <legend>PEDÍ TU BURGER</legend>
+                    <select name="hamburguesas" id="">
+                        <option value="0">Burger</option>
+                        <option value="a">ATR</option>
+                        <option value="r">Ronro</option>
+                        <option value="p">Parrillera</option>
+                        <option value="d">Don Corleone</option>
+                        <option value="v">Veggie</option>
+                    </select>
+
+                    <select name="tamano" id="">
+                        <option value="0">Doble</option>
+                        <option value="3">Triple</option>
+                        <option value="4">Cuadruple</option>
+                        <option value="1">Simple</option>
+                    </select>
+                    <input type="number" name="cantidad" id="" placeholder="cantidad">
+                    <!--CHECKBOX ADICIONALES-->
+
+                    <div class="container containerFieldset">
+                        <div class="row">
+                            <div class="col">
+                                Queso <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Panceta Ahumada <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Medallón <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Porción de Papas <input type="checkbox">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <!--BURGER 2-->
+                    <select name="hamburguesas" id="">
+                        <option value="0">Burger</option>
+                        <option value="a">ATR</option>
+                        <option value="r">Ronro</option>
+                        <option value="p">Parrillera</option>
+                        <option value="d">Don Corleone</option>
+                        <option value="v">Veggie</option>
+                    </select>
+
+                    <select name="tamano" id="">
+                        <option value="0">Doble</option>
+                        <option value="3">Triple</option>
+                        <option value="4">Cuadruple</option>
+                        <option value="1">Simple</option>
+                    </select>
+                    <input type="number" name="cantidad" id="" placeholder="cantidad">
+
+                    <!--CHECKBOX ADICIONALES-->
+                    <div class="container containerFieldset">
+                        <div class="row">
+                            <div class="col">
+                                Queso <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Panceta Ahumada <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Medallón <input type="checkbox">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                Porción de Papas <input type="checkbox">
+                            </div>
+                        </div>
+                    </div>
+
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <!--DATOS DEL PEDIDO SANDWICH-->
+                    <legend>PEDÍ TU SANDWICH</legend>
+                    <select name="sandwich" id="">
+                        <option value="0">Sandwich</option>
+                        <option value="m">Meet Ball</option>
+                        <option value="b">B.L.T.</option>
+                        <option value="t">Triple Queso</option>
+                        <option value="c">Cubano</option>
+                    </select>
+                    <input type="number" name="cantidad" id="" placeholder="cantidad">
+                    <!--CHECKBOX ADICIONALES-->
+                    <div class="container containerFieldset">
+                        <div class="row">
+                            <div class="col">
+                                Porción de Papas <input type="checkbox">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <!--SANDWICH 2-->
+                    <select name="sandwich" id="">
+                        <option value="0">Sandwich</option>
+                        <option value="m">Meet Ball</option>
+                        <option value="b">B.L.T.</option>
+                        <option value="t">Triple Queso</option>
+                        <option value="c">Cubano</option>
+                    </select>
+                    <input type="number" name="cantidad" id="" placeholder="cantidad">
+                    <!--CHECKBOX ADICIONALES-->
+                    <div class="container containerFieldset">
+                        <div class="row">
+                            <div class="col">
+                                Porción de Papas <input type="checkbox">
+                            </div>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+                <br>
+
+                <br>
+
+                <fieldset>
+                    ¿QUERES HACERNOS ALGUNA ACLARACIÓN?<br>
+                    <textarea name="" id="" cols="100" rows="10">
+
+                    </textarea>
+                </fieldset>
+                <br>
+                <input class="boton1" type="submit" value="ENVIAR">
+                <input class="boton2" type="reset" value="BORRAR">
+
+
+
+
+            </fieldset>
+        </form>
+
+    </main>
+
+    <div class="barra">
+
+    </div>
+
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="barrios-delivery">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="150" height="150" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=felix%20oregone%20742&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                    href="https://fmovies-online.net">fmovies</a><br>
+                                <a href="https://www.embedgooglemap.net">how do i add a google map to my website</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-9 col-lg-9">
+                    <div class="footer__datos--div">
+                        <ul>
+                            <li><img src="../img/phone.png" alt="telefono">1145362796</li>
+                            <li><img src="../img/horario.png" alt="horario">Jue a Dom - 19 a 23hs.</li>
+                            <li><img src="../img/delivery.png" alt="Zona delivery">Delivery and Take Away - Zona Gratuita:
+                                Mataderos, Liniers, V. Luro.</li>
+                            <li>Otras zonas: consultar costos.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-10">
+                    <ul class="nav bg-transparent text-white-50 ">
+                        <li class="nav-item">
+                            <a class="nav-link text-reset"
+                                href="../index.html">HAMBURGUESAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="../pages/sandwiches.html">SANDWICHES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="../pages/menu.html">MENÚ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-reset" href="../pages/nuestrosProductos.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item active activeBorder text-reset" aria-current="page">
+                            <a class="nav-link text-reset" href="../pages/pedidos.html">PEDIDO</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 justify-content-end ">
+                    <div class="footer__links--iconos ">
+                        <ul class="footer--ul">
+                            <li> <a href="https://www.instagram.com/menosesmasburgers/?hl=en"><img
+                                        src="../img/instagram.png" alt="instagram"></a> </li>
+                            <li> <a href="#"><img src="../img/whatsapp.png" alt="whatsapp"></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

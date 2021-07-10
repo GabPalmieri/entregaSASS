@@ -1,0 +1,40 @@
+/** comienza EXTEND**/
+
+/**comienza titulos index**/
+
+.h1__HamburguesasSandwich{
+
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 8% 0 5% 0;
+    padding: 6px 0 6px 0;
+    border-bottom: $color_principal 5px solid;
+    color: white;
+    font-family: $font_principal;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+/**finaliza titulos index**/
+
+/**comienza titulos menu**/
+
+.h2__menu{
+    @extend .h1__HamburguesasSandwich;
+    border-bottom: $color_secundario 5px solid;
+}
+
+/**finaliza titulos menu**/
+
+/**comienza titulos Nuestros Productos**/
+
+.h2__nuestrosProductos{
+    @extend .h1__HamburguesasSandwich;
+    border-bottom: $color_secundario 5px solid;
+}
+
+/**finaliza titulos Nuestros Productos**/
+
+
+/** finaliza EXTEND**/

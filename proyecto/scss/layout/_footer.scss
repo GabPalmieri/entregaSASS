@@ -1,0 +1,78 @@
+/**comienza footer**/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 60px auto 35px auto;
+}
+
+.barrios-delivery{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 150px;
+        width: 150px;
+        
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 150px;
+            width: 150px;
+        }
+    }
+    
+}
+
+.footer__datos--div{
+    display: inline-block;
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+        list-style: none;
+        
+        li{
+            font-family: $font_principal;
+            color: $color_font;
+            font-weight: 200;
+            font-size: 15px;
+            margin-left: 2%;
+        
+            img{
+                width: 2%;
+                margin-right: 2% ;
+            }
+
+        }
+}
+}
+
+.footer__links--iconos{
+    display:inline-block;
+
+    ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+
+        li{
+            display: inline-block;
+            padding: 0 10px 0 10px;
+        }
+    
+    }
+
+}
+
+/**finaliza footer**/
